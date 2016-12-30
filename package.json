@@ -1,0 +1,15 @@
+{
+  "name": "twitter_bot",
+  "version": "1.0.0",
+  "description": "Making a twitter bot",
+  "main": "bot.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node bot.js"
+  },
+  "author": "Srishti Gupta",
+  "license": "ISC",
+  "dependencies": {
+    "twit": "^2.2.5"
+  }
+}
