@@ -54,8 +54,7 @@ const favouriteTweet = () => {
 }
 favouriteTweet();
 
-stream.on('follow')
-.then((event) => {
+stream.on('follow', (event) => {
   console.log('Follow event is running');
   const name = event.source.name;
   const screenName = event.source.screen_name;
