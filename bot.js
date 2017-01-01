@@ -58,7 +58,7 @@ stream.on('follow', (event) => {
   console.log('Follow event is running');
   const name = event.source.name;
   const screenName = event.source.screen_name;
-  Twitter.post('direct_messages/new', { text: '@' + screenName + ' Thankyou for the follow up'})
+  Twitter.post('direct_messages/new', { screen_name: screenName, text: '@' + screenName + 'Thanks a lot for the follow up' })
   .catch(err => {
     console.log('cant DM');
   })
