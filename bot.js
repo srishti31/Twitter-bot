@@ -27,7 +27,7 @@ const retweet = () => {
   });
 }
 
-// retweet();
+retweet();
 function ranDom (arr, n){
   const index = Math.floor(Math.random()*n);
   return arr[index];
